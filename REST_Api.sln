@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST_Api", "REST_Api\REST_Api.csproj", "{EBA50557-4D3F-46C5-96B6-C271026437C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{0CEFC4CE-585E-4EF4-91A5-88A157919D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "js_Client", "js_Client\js_Client.csproj", "{7451B43C-958B-4C50-B2C0-BA0039B258D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBA50557-4D3F-46C5-96B6-C271026437C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA50557-4D3F-46C5-96B6-C271026437C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA50557-4D3F-46C5-96B6-C271026437C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA50557-4D3F-46C5-96B6-C271026437C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CEFC4CE-585E-4EF4-91A5-88A157919D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEFC4CE-585E-4EF4-91A5-88A157919D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEFC4CE-585E-4EF4-91A5-88A157919D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEFC4CE-585E-4EF4-91A5-88A157919D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7451B43C-958B-4C50-B2C0-BA0039B258D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7451B43C-958B-4C50-B2C0-BA0039B258D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7451B43C-958B-4C50-B2C0-BA0039B258D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7451B43C-958B-4C50-B2C0-BA0039B258D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB85212B-5D65-46E4-8CB2-C0A5257D7EBA}
+	EndGlobalSection
+EndGlobal

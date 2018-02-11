@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var url = "http://localhost:54018/api/EmployeeInfoAPI";
+            $("#btnsingle").on('click', function () {
+                alert('in button');
+                $.ajax({
+                    url: url + '/' + 55,
+                    type: 'GET'
+                }).done(function (resp) {
+                   alert(JSON.stringify(resp));
+                }).fail(function (xhr, textStatus, errorThrown) {
+                    alert('TextStatus ' + textStatus + ' Error Thrown ' + errorThrown);
+                });
+            });
+
+
+            $("#btnadd").on('click', function () {
+                var emp = {
+                    Id: 0,
+                    EmpNo: 104,
+                    Salary: 39394,
+                    DeptName: 'IT',
+                    Designation:'Manager'
+                };
+                $.ajax({
+                    url: url,
+                    type: 'POST',
+                    data: emp,
+                    datatype: 'json',
+                    contenttype:'application/json'
+                }).done(function (resp) {
+                    alert(JSON.stringify(resp));
+                    }).fail(function (xhr, textStatus, errorThrown) {
+                        alert('TextStatus ' + textStatus + ' Error Thrown ' + errorThrown + ' '
+                            + xhr.responseText );
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <input type="button" id="btnsingle" value="Get Single" />
+        <input type="button" id="btnadd" value="Get Single" />
+    </div>
+</body>
+</html>

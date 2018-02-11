@@ -1,0 +1,9 @@
+D:\Fiserv\REST_API_TRG\REST_Api\js_Client\bin\js_Client.dll.config
+D:\Fiserv\REST_API_TRG\REST_Api\js_Client\bin\js_Client.dll
+D:\Fiserv\REST_API_TRG\REST_Api\js_Client\bin\js_Client.pdb
+D:\Fiserv\REST_API_TRG\REST_Api\js_Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Fiserv\REST_API_TRG\REST_Api\js_Client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Fiserv\REST_API_TRG\REST_Api\js_Client\obj\Debug\js_Client.csproj.CoreCompileInputs.cache
+D:\Fiserv\REST_API_TRG\REST_Api\js_Client\obj\Debug\js_Client.dll
+D:\Fiserv\REST_API_TRG\REST_Api\js_Client\obj\Debug\js_Client.pdb
+D:\Fiserv\REST_API_TRG\REST_Api\js_Client\obj\Debug\js_Client.csprojResolveAssemblyReference.cache
